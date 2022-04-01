@@ -55,38 +55,42 @@ a {
     color: #ffffff;
 }
 
-.mainbutton {
-    position: fixed;
-    transform: translate(-6.2%, 5%);
-    top: 6.2%;
-    left: 5%;
-    font-size: 36px;
-    font-weight: bold;
-    color: rgb(165, 7, 165);
+
+ul {
+  list-style-type: none;
+  margin: line-height;
+  padding: 0;
+  overflow: hidden;
+  position: fixed;
+  font-size: 26px;
+  padding-left: 38%;
+  text-align: center;
+ 
+  
 }
 
-.about-us {
-    position: fixed;
-    transform: translate(-4.1%, 50%);
-    top: 4.1%;
-    left: 50%;
-    font-size: 28px;
+
+li {
+  float: left;
+  padding-left: 0%;
+  
 }
 
-.contact {
-    position: fixed;
-    transform: translate(-3.6%, 65%);
-    top: 3.6%;
-    left: 65%;
-    font-size: 28px;
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  width: 33%;
+  padding: 27px 11px;
+  text-shadow: none;
+  
+  
 }
 
-.projects {
-    position: fixed;
-    transform: translate(-3.2%, 80%);
-    top: 3.2%;
-    left: 80%;
-    font-size: 28px;
+li a:hover {
+  text-shadow: 2px 2px #6700c7;
 }
 
 h1 {
