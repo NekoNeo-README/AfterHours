@@ -1,4 +1,4 @@
-const quotes=["I think I'm ok - anon", "Another day goes by 🎵 - anon", "Let's go do something today - anon"]
+const quotes=["Good software, like wine, takes time - Joel SPolsky", "Another day goes by 🎵 - anon", "Let's go do something today - anon"]
 
 function setup()
 {
