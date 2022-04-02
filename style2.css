@@ -37,18 +37,7 @@ h2 {
     font-size: 24px;
 }
 
-#quote {
-    transform: translate(0%, -300%)
-}
 
-.part1text {
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-}
 
 a {
     text-decoration: none;
@@ -93,32 +82,60 @@ li a:hover {
   text-shadow: 2px 2px #6700c7;
 }
 
-h1 {
-    overflow: hidden;
-    border-right: .15em solid rgb(255, 255, 255);
-    animation: typing 4.5s steps(40, end), blink-caret .75s step-end infinite;
-    animation-delay: reversal;
+
+.formpos{
+  margin-left: -1.8%;
+  width: 50%;
+  padding: 10px;
+  height:60%;
+  margin-top: -5%;
+
 }
 
-@keyframes typing {
-    from {
-        width: 0
-    }
-    to {
-        width: 100%
-    }
+.contacttext{
+    margin-top:10%;
+    margin-right:52%;
+    font-size: 60px;
 }
-
-@keyframes blink-caret {
-    from,
-    to {
-        border-color: transparent
-    }
-    50% {
-        border-color: rgb(255, 255, 255);
-    }
-}
-
-.footer {
-    height: 70%;
-}
+.feedback-input {
+    color:white;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight:500;
+    font-size: 18px;
+    border-radius: 5px;
+    line-height: 22px;
+    background-color: transparent;
+    border:2px solid #6700c7;
+    transition: all 0.3s;
+    padding: 13px;
+    margin-bottom: 15px;
+    width:600px;
+    box-sizing: border-box;
+    outline:0;
+  }
+  
+  .feedback-input:focus { border:2px solid #6700c7; }
+  
+  textarea {
+    height: 300px;
+    line-height: 150%;
+    resize:vertical;
+    width: 20%;
+  }
+  
+  [type="submit"] {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    width: 50%;
+    background:#6700c7;
+    border-radius:5px;
+    border:0;
+    cursor:pointer;
+    color:white;
+    font-size:24px;
+    padding-top:10px;
+    padding-bottom:10px;
+    transition: all 0.3s;
+    margin-top:-4px;
+    font-weight:700;
+  }
+  [type="submit"]:hover { background:#5c00b3; }
